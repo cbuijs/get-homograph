@@ -6,6 +6,9 @@
 
  Show domain punycoded homographs
 
+ Uses "homoglyphs":
+ https://github.com/life4/homoglyphs
+
 ===========================================================================
 '''
 
