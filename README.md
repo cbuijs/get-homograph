@@ -3,9 +3,11 @@ Get all possible homograph punycoded domains of a particular domain
 
 `cat domain.list | ./get-homograph.py`
 
+Outputs two columns, the punycoded homograph and the original domain.
+
 Test:
 ```
-echo "test.com" | ./get-homograph.py 
+root@boohoo:/opt/get-homograph# echo "test.com" | ./get-homograph.py 
 test.com	test.com
 xn--tst-rdd.com	test.com
 ```
