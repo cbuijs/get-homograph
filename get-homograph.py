@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 '''
 ===========================================================================
- get-homograph.py v0.01-20200420 Copyright 2020 by cbuijs@chrisbuijs.com
+ get-homograph.py v0.02-20200420 Copyright 2020 by cbuijs@chrisbuijs.com
 ===========================================================================
 
  Show domain punycoded homographs
 
- Uses "homoglyphs":
+ cat domain.list | ./get-homograph.py
+
+ Uses "homoglyphs" by Life4:
  https://github.com/life4/homoglyphs
 
 ===========================================================================
